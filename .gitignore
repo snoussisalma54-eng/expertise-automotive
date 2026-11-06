@@ -1,0 +1,22 @@
+
+# React
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Laravel
+/laravelbackend/vendor/
+/laravelbackend/.env
+/laravelbackend/.env.*
+!/laravelbackend/.env.example
+/laravelbackend/storage/logs/*
+/laravelbackend/bootstrap/cache/*.php
+/laravelbackend/public/storage
+/laravelbackend/database/*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
